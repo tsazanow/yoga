@@ -166,6 +166,60 @@
 
       <section class="feedback">
         <h2 class="feedback__title">Отзывы</h2>
+        <ul class="feedback__list">
+          <li class="feedback__item">
+            <article class="feedback__content">
+              <p class="feedback__text">Хожу на йогу вечером, чтобы расслабиться после тяжелого трудового дня. И после
+                занятий наступает спокойствие! Йога это
+                отличный способ быстро и качественно расслабиться. Спасибо инструктору Марине.</p>
+              <footer class="feedback__footer">
+                <img src="/source/img/popov-mobile@1x.png" alt="Серёжа Попов">
+                <p class="feedback__author">Серёжа Попов</p>
+                <p class="feedback__date"><time datetime="2018-05-16">16 мая 2018</time></p>
+              </footer>
+              <ul class="feedback__social social">
+                <li class="social__link"></li>
+                <li class="social__link"></li>
+              </ul>
+            </article>
+          </li>
+          <!-- <li class="feedback__item"></li>
+          <li class="feedback__item"></li>
+          <li class="feedback__item"></li>
+          <li class="feedback__item"></li>
+          <li class="feedback__item"></li>
+          <li class="feedback__item"></li>
+          <li class="feedback__item"></li>
+          <li class="feedback__item"></li> -->
+        </ul>
+        <div class="feedback__nav">
+          <button class="feedback__btn feedback__btn--prev"></button>
+          <span class="feedback__current"></span>
+          <button class="feedback__btn feedback__btn--next"></button>
+        </div>
+      </section>
+
+      <section class="entry">
+        <h1 class="entry__title">Запишитесь на бесплатное пробное занятие</h1>
+        <form class="entry__form form" method="post">
+          <div class="form__name">
+            <label for="name">Ваше имя:</label>
+            <input id="name" class="form-control" name="name" required type="text"
+                   placeholder="Иванов Иван Иванович">
+          </div>
+
+          <div class="form__phone">
+            <label for="phone">Ваш телефон:</label>
+            <input id="phone" class="form-control" name="phone" required type="text"
+                   placeholder="+7 (800) 000-00-00">
+          </div>
+
+          <button id="button" class="form__btn btn btn-success" type="submit">Оставить заявку</button>
+          <!-- <div class="result">
+            <span id="answer"></span>
+            <span id="loader" style="display:none"><img src="img/loader.gif" alt=""></span>
+          </div> -->
+        </form>
       </section>
 
     </main>
